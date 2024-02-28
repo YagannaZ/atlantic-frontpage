@@ -1,1 +1,112 @@
-/* css here */
+                        /* ----- MAIN ------*/
+.main {
+    width: 65%;
+    margin: auto;
+}
+
+.main-up {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    border-right: 1px solid rgb(211, 211, 211);
+    margin-inline: 0.2rem;
+    padding-inline: 1rem;
+    float: left;
+    width: 25%;
+}
+
+.card:last-of-type{
+    border: none;
+}
+
+.main-down {
+    display: flex;
+
+}
+
+
+                            /* ----- HEADER ------*/
+.header {
+
+    height: 23vh;
+    display: flex;
+    justify-content: center;
+
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 2vh;
+}
+
+.header-content {
+    width: 65%;
+}
+
+.izquierda,
+.derecha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.izquierda a,
+.derecha a {
+    margin-inline: 2vh
+}
+
+.izquierda,
+.derecha {
+    height: 13vh;
+    float: left;
+    margin: 0;
+    width: 45%;
+    border-bottom: 1px solid rgb(211, 211, 211);
+
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 23vh;
+    float: left;
+    margin: 0;
+    width: 10%;
+}
+
+.logo img {
+    width: auto;
+    height: 17vh;
+}
+
+.logo h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    width: 4rem;
+}
+
+.menu,
+.search {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-inline: 1rem;
+}
+
+.btnSub {
+    height: 4vh;
+    width: 6vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(236, 0, 0);
+    color: white;
+
+    border-radius: 5px;
+}

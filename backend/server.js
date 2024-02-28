@@ -15,9 +15,16 @@ server.use(cors())
 server.use('/api/frontpage', (req, res) => {
   res.json({
     "header": {
-      "menu": ["Popular", "Latest", "Newsletters"],
+      "menu": [
+        "Popular",
+        "Latest",
+        "Newsletters"
+      ],
       "logo": "The Atlantic",
-      "userOptions": ["Saved Stories", "My Account", "Give a Gift"]
+      "userOptions": [
+        "Sign in",
+        "Subscribe"
+      ]
     },
     "mainArticles": [
       {
@@ -81,7 +88,8 @@ server.use('/api/frontpage', (req, res) => {
         "author": "SARAH LONGWELL"
       }
     ]
-  })
+  }
+  )
 })
 
 server.get('*', (req, res) => {
